@@ -38,3 +38,13 @@ html, body{
 .hidden{
     opacity: 0 !important;
 }
+
+@media only screen and (max-width: 600px){
+    #timer{
+        font-size: 29px !important;
+        top: 420px;
+    }
+    #lottie-wrapper{
+        width: 170%;
+    }
+}
