@@ -1,0 +1,33 @@
+@font-face{
+    font-family: "Slim";
+    src: url("fonts/Slim_Joe.otf") format("OpenType");
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(247,217,173);
+}
+.container, #lottie-wrapper{
+    width: 100%;
+    position: relative;
+    /* height: 100vh; */
+}
+
+#timer{
+    font-family: "Slim";
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    white-space: nowrap;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
