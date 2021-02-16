@@ -1,7 +1,7 @@
 
 const animation = lottie.loadAnimation({
     container: document.getElementById('lottie-wrapper'), // Required
-    path: '/assets/26154-summer-breeze.json', // Required
+    path: './../assets/26154-summer-breeze.json', // Required
     renderer: 'svg', // Required
     loop: true, // Optional
     autoplay: true, // Optional
