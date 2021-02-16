@@ -17,6 +17,8 @@ html, body{
 }
 
 #timer{
+    opacity: 1;
+    transition: opacity 600ms;
     font-family: "Slim";
     font-size: 60px;
     color: white;
@@ -30,4 +32,9 @@ html, body{
     -ms-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.hidden{
+    opacity: 0 !important;
 }
